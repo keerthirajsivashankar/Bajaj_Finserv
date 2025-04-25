@@ -39,11 +39,9 @@ function App() {
 
         {/* Cards Section */}
         <div className=" p-2 grid grid-cols-1 gap-1 md:grid-cols-2 lg:grid-cols-3">
-          {/* Add any other content here if needed */}
             {data.map((item, index) => (
               <Doctorcard key={index} data={item} />
-            ))}
-          
+            ))} 
         </div>
       </div>
     </>
